@@ -19,6 +19,7 @@ print()
 print('1 이상 7이하, 정수 값')
 print('random.randint(1,7): ',random.randint(1,7))
 # random.randrange(1,7+1)
+print()
 
 print('리스트에서 1개 값 꺼내오기')
 season = ['봄','여름','가을','겨울']

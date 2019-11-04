@@ -1,8 +1,8 @@
 class TicTacToe:
     def __init__(self):
-        self.board = {".",".",".",\
+        self.board = [".",".",".",\
                       ".",".",".",\
-                      ".",".","."}
+                      ".",".","."]
         self.current_turn = "X"
 
     def set(self,row,col):

@@ -1,3 +1,7 @@
+#2315 이현수
+#자신의 얼굴형에 맞는 헤어스타일을 추천해주는 프로그램입니다.
+#hairstyle.py 실행하면 됩니당
+
 import sys
 
 class HairStyle:

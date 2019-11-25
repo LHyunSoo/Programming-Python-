@@ -1,7 +1,7 @@
 f = open("file.txt", "w")
 
-f.write("Hello")
+f.write("hi")
 f.write("\n")
-f.write("world")
+f.write("hello")
 
 f.close()

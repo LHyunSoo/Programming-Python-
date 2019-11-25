@@ -1,9 +1,9 @@
-f = open("file.txt", "r")  #r : read text
-
-text = f.read()
-print(text)
-
-f.close()
+# f = open("file.txt", "r")  #r : read text
+#
+# text = f.read()
+# print(text)
+#
+# f.close()
 
 #한줄씩 읽어오자
 f = open("file.txt", "r", encoding = "utf-8")

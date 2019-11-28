@@ -8,6 +8,7 @@ if __name__ == '__main__':
     # 네이버 웹툰 > 연애혁명 제목 가져오기
     data = urlopen("https://comic.naver.com/webtoon/list.nhn?titleId=570503&weekday=thu")
     soup = BeautifulSoup(data,"lxml")       # httpResponse -> HTML
+    data.close()
     # print(soup)
 
     html = "<html><head><meta charset='utf-8'></head><body>"
